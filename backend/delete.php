@@ -4,7 +4,7 @@ header("Access-Control-Allow-Origin:*");
 
 $dsn = "mysql:host=localhost;dbname=todo;";
 $username = "root";
-$password = "Ad1Fmin4K.23*.";
+$password = "";
 
 try{
     $connection = new PDO($dsn,$username,$password);
