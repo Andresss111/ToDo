@@ -1,0 +1,92 @@
+body {
+    background-color: #3a3535dd;
+}
+
+.field {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.tasks-data button {
+    background-color: white;
+    color: #357298;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 0.5em;
+    margin-left: 0.5em;
+}
+
+.tasks-data button:hover {
+    color: #70b1b4;
+}
+
+.tasks-data td {
+    padding-right: 1em;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    height: 100%;
+    background-color: white;
+    border-radius: 5px;
+    padding: 0px;
+    padding-bottom: 1.5em;
+}
+
+#frm {
+    display: flex;
+    flex-direction: column;
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    min-width: 400px;
+    margin-bottom: 2em;
+}
+
+#frm label {
+    display: block;
+}
+
+#frm input {
+    width: 100%;;
+}
+
+.container h1 {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: #357298;
+    padding: 8px;
+    border-radius: 5px;
+    color: white;
+    margin-bottom: 0px;
+}
+  
+table {
+    margin: 16px;
+    
+}
+
+dialog {
+    border-color: #ccc;
+    border-radius: 8px;
+    padding: 0px;
+}
+
+dialog h1 {
+    border-radius: none;
+}
+  
+.div-dialog {
+    padding: 16px;
+}
+  
+  
+  
+  
